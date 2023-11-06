@@ -20,6 +20,11 @@
    "Name": "Jakob Strøm",
    "Age": 20,
    "Gender": "Sigma"
+  },
+  {
+   "Name": "Mathias",
+   "Age": 10000,
+   "Gender": "Ghoul"
   }
  ]
 }
