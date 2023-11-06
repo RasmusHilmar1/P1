@@ -7,6 +7,8 @@ add_executable(medcine main.c
         "patient information.h"
         "patient information.c"
         login.c
-        login.h)
+        login.h
+        cmake-build-debug/homescreen_cpr.c
+        cmake-build-debug/homescreen_cpr.h)
 
 
