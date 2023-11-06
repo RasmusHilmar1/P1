@@ -5,5 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(medcine main.c
         "patient information.h"
-        "patient information.c")
+        "patient information.c"
+        login.c
+        login.h)
 target_link_libraries(medcine sqlite3)
+
