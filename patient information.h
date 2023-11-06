@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void print_test(void);
+//Prototype af funktion her
 
 #ifndef MEDCINE_PATIENT_INFORMATION_H
 #define MEDCINE_PATIENT_INFORMATION_H
