@@ -1,23 +1,22 @@
 {
  "Users": [
   {
-   "Name": "John",
+   "Name": "John Doe",
    "Age": 30,
    "Gender": "Male"
   },
   {
-   "Name": "Jane",
+   "Name": "Jane Doe",
    "Age": 25,
    "Gender": "Female"
   },
   {
-   "Name": "Lasse",
+   "Name": "Lasse Binderup Soerensen",
    "Age": 24,
-   "Gender": "Male",
-   "Haircut": "Fade"
+   "Gender": "Male"
   },
   {
-   "Name": "Jakob Strøm",
+   "Name": "Jakob Stroem",
    "Age": 20,
    "Gender": "Sigma"
   },
