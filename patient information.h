@@ -1,0 +1,8 @@
+//
+// Created by Lasse Binderup Sørensen on 06/11/2023.
+//
+
+#ifndef MEDCINE_PATIENT_INFORMATION_H
+#define MEDCINE_PATIENT_INFORMATION_H
+
+#endif //MEDCINE_PATIENT_INFORMATION_H
