@@ -15,8 +15,6 @@ int main(int argc, char* argv[]) {
     char* zErrMsg = 0;
     int rc;
 
-    printf("Haadasdsad");
-
     rc = sqlite3_open("identifier.db", &db);
 
     if (rc) {
