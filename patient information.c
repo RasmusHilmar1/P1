@@ -1,3 +1,5 @@
-//
-// Created by Lasse Binderup Sørensen on 06/11/2023.
-//
+#include "patient information.h"
+
+void print_test(void) {
+    printf("test");
+}
