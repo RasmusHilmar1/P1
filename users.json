@@ -1,0 +1,25 @@
+{
+ "Users": [
+  {
+   "Name": "John",
+   "Age": 30,
+   "Gender": "Male"
+  },
+  {
+   "Name": "Jane",
+   "Age": 25,
+   "Gender": "Female"
+  },
+  {
+   "Name": "Lasse",
+   "Age": 24,
+   "Gender": "Male",
+   "Haircut": "Fade"
+  },
+  {
+   "Name": "Jakob Strøm",
+   "Age": 20,
+   "Gender": "Sigma"
+  }
+ ]
+}
