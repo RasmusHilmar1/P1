@@ -13,7 +13,13 @@
   {
    "Name": "Lasse",
    "Age": 24,
-   "Gender": "Male"
+   "Gender": "Male",
+   "Haircut": "fade"
+  },
+  {
+   "Name": "Jakob Strøm",
+   "Age": 20,
+   "Gender": "Sigma"
   }
  ]
 }
