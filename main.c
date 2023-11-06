@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
         return(0);
     }
 
-    const char* sql = "SELECT * FROM data WHERE CPR LIKE 0308036189;"; // Change 'your_table' to the actual table name.
+    const char* sql = "SELECT * FROM data WHERE CPR LIKE ;"; // Change 'your_table' to the actual table name.
 
     rc = sqlite3_exec(db, sql, callback, 0, &zErrMsg);
 
