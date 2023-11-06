@@ -4,10 +4,10 @@
 
 int main() {
 
-    login();
+    login(); // LOGIN FUNCTION
 
     // open the file
-/*    FILE *fp = fopen("users.json", "r");
+    FILE *fp = fopen("users.json", "r");
     if (fp == NULL) {
         printf("Error: Unable to open the file.\n");
         return 1;
@@ -36,7 +36,7 @@ int main() {
     }
 
     // delete the JSON object
-    cJSON_Delete(json); */
+    cJSON_Delete(json);
 
     return 0;
 }

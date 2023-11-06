@@ -3,6 +3,7 @@
 #include <string.h>
 #include "cJSON.h"
 
+// login function
 int login() {
     FILE *fileptr;
     char *buffer;
@@ -15,7 +16,7 @@ int login() {
     printf("Input login password\n>");
     scanf("%s", password);
 
-
+    // Open file, print error if fail
     fileptr = fopen("/Users/jonathanpascu/CLionProjects/medcine/pass.json", "rb");
     if (fileptr == NULL) {
         perror("Error opening file");
@@ -25,6 +26,7 @@ int login() {
     filelen = ftell(fileptr);
     rewind(fileptr);
 
+    // allocate memory for file
     buffer = (char *)malloc((filelen + 1) * sizeof(char));
     if (buffer == NULL) {
         perror("Error allocating memory for file content");
@@ -36,6 +38,7 @@ int login() {
 
     buffer[filelen] = '\0';
 
+    // parse the file
     cJSON *json = cJSON_Parse(buffer);
     if (json == NULL) {
         const char *error_ptr = cJSON_GetErrorPtr();
@@ -46,10 +49,12 @@ int login() {
         return -1;
     }
 
+    // find data from file
     int found = 0;
     cJSON *users = cJSON_GetObjectItemCaseSensitive(json, "Users");
     cJSON *user;
 
+    // check if user and pass are correct, if so print result
     cJSON_ArrayForEach(user, users) {
         cJSON *json_username = cJSON_GetObjectItemCaseSensitive(user, "Username");
         cJSON *json_password = cJSON_GetObjectItemCaseSensitive(user, "Password");
@@ -70,11 +75,13 @@ int login() {
         }
     }
 
+    // checks if username exists in list
     if (!found) {
         printf("Username does not exist.\n");
         return 3;
     }
 
+    // clear file & clear memory
     cJSON_Delete(json);
     free(buffer);
 
