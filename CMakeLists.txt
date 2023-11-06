@@ -3,6 +3,9 @@ project(medcine C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(medcine main.c)
+add_executable(medcine main.c
+        login.h
+        login.c
+)
 target_link_libraries(medcine sqlite3)
 
