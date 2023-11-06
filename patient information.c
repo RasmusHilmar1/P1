@@ -1,5 +1,3 @@
 #include "patient information.h"
 
-void print_test(void) {
-    printf("test");
-}
+//Skriv indholdet af din funktion her.

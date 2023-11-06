@@ -7,6 +7,8 @@ add_executable(medcine main.c
         "patient information.h"
         "patient information.c"
         login.c
-        login.h)
-target_link_libraries(medcine sqlite3)
+        login.h
+        "Enter CPR .c"
+        "Enter CPR .h")
+
 
