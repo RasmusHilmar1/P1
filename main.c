@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include "cJSON.h"
+#include "login.h"
 
 int main() {
+
+    login();
+
     // open the file
-    FILE *fp = fopen("users.json", "r");
+/*    FILE *fp = fopen("users.json", "r");
     if (fp == NULL) {
         printf("Error: Unable to open the file.\n");
         return 1;
@@ -32,6 +36,7 @@ int main() {
     }
 
     // delete the JSON object
-    cJSON_Delete(json);
+    cJSON_Delete(json); */
+
     return 0;
 }
