@@ -9,6 +9,7 @@ add_executable(medcine main.c
         login.c
         login.h
         "Enter CPR .c"
-        "Enter CPR .h")
+        "Enter CPR .h"
+        cJSON.h)
 
 
