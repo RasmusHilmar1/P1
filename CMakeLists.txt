@@ -8,5 +8,5 @@ add_executable(medcine main.c
         "patient information.c"
         login.c
         login.h)
-target_link_libraries(medcine sqlite3)
+
 
