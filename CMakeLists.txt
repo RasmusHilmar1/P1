@@ -7,6 +7,8 @@ add_executable(medcine main.c
         "patient information.h"
         "patient information.c"
         login.c
-        login.h)
+        login.h
+        "Enter CPR .c"
+        "Enter CPR .h")
 
 
