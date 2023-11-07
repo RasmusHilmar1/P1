@@ -17,7 +17,7 @@ int login() {
     scanf("%s", password);
 
     // Open file, print error if fail
-    fileptr = fopen("/Users/jonathanpascu/CLionProjects/medcine/pass.json", "rb");
+    fileptr = fopen("pass.json", "r");
     if (fileptr == NULL) {
         perror("Error opening file");
         return -1;
