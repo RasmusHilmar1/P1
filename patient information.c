@@ -3,7 +3,7 @@
 //Skriv indholdet af din funktion her.
 int print_patient() {
 // open the file
-    FILE *fp = fopen("data.json", "r");
+    FILE *fp = fopen("users.json", "r");
     if (fp == NULL) {
         printf("Error: Unable to open the file.\n");
         return 1;
