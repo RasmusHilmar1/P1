@@ -11,6 +11,7 @@ int EnterCPR() {
     printf("Please enter patients CPR-number:\n>");
     scanf("" CPRnr);
 
+    //open json file
     fileptr = fopen(//json document location,---);
 
 }
