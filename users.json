@@ -3,7 +3,9 @@
   {
    "Name": "Mike Krack",
    "Age": 30,
-   "Gender": "Male"
+   "Gender": "Male",
+   "Medicine": "Panodil",
+   "Dose": "2 pills"
   },
   {
    "Name": "Faker",
