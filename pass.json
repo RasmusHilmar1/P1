@@ -25,8 +25,13 @@
       "Password": "codingGenius"
     },
     {
+<<<<<<< HEAD
       "Username": "travellerTim",
       "Password": "globetrotter"
+=======
+      "Username": "Lasse",
+      "Password": "Lasse1"
+>>>>>>> origin/main
     }
   ]
 }
