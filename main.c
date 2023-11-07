@@ -2,11 +2,13 @@
 #include "cJSON.h"
 #include "login.h"
 #include "dosagecalc.h"
+#include "patient information.h"
 
 int main() {
 
     login(); // LOGIN FUNCTION
     dosage(); // DOSAGE CALCULATOR
+    print_patient(); //Print patient information
 
     /* // open the file
     FILE *fp = fopen("users.json", "r");
