@@ -3,7 +3,7 @@
 #include <string.h>
 #include "cJSON.h"
 #include "Enter CPR .h"
-/*
+
 int EnterCPR() {
     FILE *fileptr;
 
@@ -15,4 +15,3 @@ int EnterCPR() {
     fileptr = fopen(//json document location,---);
 
 }
- */
