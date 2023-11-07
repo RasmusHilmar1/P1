@@ -1,0 +1,3 @@
+/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles/medcine.dir
+/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles/edit_cache.dir
+/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles/rebuild_cache.dir

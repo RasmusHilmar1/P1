@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="medcine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jonathanpascu/CLionProjects/medcine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="medcine">
+				<Option output="/Users/jonathanpascu/CLionProjects/medcine/medcine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jonathanpascu/CLionProjects/medcine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 medcine"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="medcine/fast">
+				<Option output="/Users/jonathanpascu/CLionProjects/medcine/medcine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jonathanpascu/CLionProjects/medcine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 medcine/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jonathanpascu/CLionProjects/medcine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jonathanpascu/CLionProjects/medcine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/jonathanpascu/CLionProjects/medcine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .h">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/cJSON.c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/cJSON.h">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/dosagecalc.h">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/login.c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/login.h">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/main.c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/patient information.c">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/patient information.h">
+			<Option target="medcine"/>
+		</Unit>
+		<Unit filename="/Users/jonathanpascu/CLionProjects/medcine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
