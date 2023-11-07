@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include "cJSON.h"
 #include "login.h"
+#include "dosagecalc.h"
 
 int main() {
 
     login(); // LOGIN FUNCTION
+    dosage(); // DOSAGE CALCULATOR
 
     /* // open the file
-    FILE *fp = fopen("/Users/rasmushilmar/CLionProjects/medcine/users.json", "r");
+    FILE *fp = fopen("users.json", "r");
     if (fp == NULL) {
         printf("Error: Unable to open the file.\n");
         return 1;
