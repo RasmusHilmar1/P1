@@ -22,6 +22,7 @@ int login() {
         perror("Error opening file");
         return -1;
     }
+
     fseek(fileptr, 0, SEEK_END);
     filelen = ftell(fileptr);
     rewind(fileptr);
@@ -81,7 +82,6 @@ int login() {
         return 3;
     }
 
-    // clear file & clear memory
     cJSON_Delete(json);
     free(buffer);
 
