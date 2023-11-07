@@ -1,6 +1,6 @@
 #include "dosagecalc.h"
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 double dosage(){
     double patientWeight;
@@ -33,6 +33,4 @@ double dosage(){
     } else {
         return dosage;
     }
-
-    return dosage;
 }
