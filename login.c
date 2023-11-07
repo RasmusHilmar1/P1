@@ -17,11 +17,12 @@ int login() {
     scanf("%s", password);
 
     // Open file, print error if fail
-    fileptr = fopen("/Users/jonathanpascu/CLionProjects/medcine/pass.json", "rb");
+    fileptr = fopen("pass.json", "r");
     if (fileptr == NULL) {
         perror("Error opening file");
         return -1;
     }
+
     fseek(fileptr, 0, SEEK_END);
     filelen = ftell(fileptr);
     rewind(fileptr);
@@ -81,7 +82,6 @@ int login() {
         return 3;
     }
 
-    // clear file & clear memory
     cJSON_Delete(json);
     free(buffer);
 
