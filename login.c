@@ -3,7 +3,6 @@
 #include <string.h>
 #include "cJSON.h"
 
-// login function
 int login() {
     FILE *fileptr;
     char *buffer;
