@@ -8,7 +8,6 @@ double dosage(){
     double maxDosage;
     double dosage;
     int unitChoice;
-
     printf("Enter the patient's weight in kilograms\n>");
     scanf("%lf", &patientWeight);
     printf("Input medicine dosage per kg\n>");
