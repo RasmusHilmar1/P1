@@ -12,7 +12,6 @@ add_executable(medcine main.c
         "Enter CPR .h"
         cJSON.h
         cJSON.c
-        pass.json
-)
+        dosagecalc.c)
 
 

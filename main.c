@@ -7,7 +7,7 @@ int main() {
     login(); // LOGIN FUNCTION
 
     /* // open the file
-    FILE *fp = fopen("/Users/rasmushilmar/CLionProjects/medcine/users.json", "r");
+    FILE *fp = fopen("users.json", "r");
     if (fp == NULL) {
         printf("Error: Unable to open the file.\n");
         return 1;
