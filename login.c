@@ -64,7 +64,7 @@ int login() {
                 found = 1;
                 if (cJSON_IsString(json_password) && (json_password->valuestring != NULL)) {
                     if (strcmp(password, json_password->valuestring) == 0) {
-                        printf("Login successful.\n");
+                        printf("Login successful.\n\n");
                         return 1;
                     } else {
                         printf("Password incorrect.\n");
@@ -78,7 +78,7 @@ int login() {
 
     // checks if username exists in list
     if (!found) {
-        printf("Username does not exist.\n");
+        printf("Incorrect login.\n");
         return 3;
     }
 

@@ -1,6 +1,6 @@
 #include "dosagecalc.h"
-#include<stdlib.h>
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 double dosage(){
     double patientWeight;
@@ -15,7 +15,7 @@ double dosage(){
     printf("Choose the unit (1 for g, 2 for mg, 3 for mcg)\n>");
     scanf("%d", &unitChoice);
     printf("Enter the maximum allowable dosage\n>");
-    scanf("%lf", &maxDosage)
+    scanf("%lf", &maxDosage);
 
     if (unitChoice == 1) { // g
         dosage = patientWeight * dosagePerKg;
@@ -33,6 +33,4 @@ double dosage(){
     } else {
         return dosage;
     }
-
-    return dosage;
 }
