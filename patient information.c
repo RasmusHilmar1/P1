@@ -26,11 +26,12 @@ int print_patient() {
     }
 
     // access the JSON data
-    cJSON *name = cJSON_GetObjectItemCaseSensitive(json, "name");
+    cJSON *name = cJSON_GetObjectItemCaseSensitive(json, "Name");
     if (cJSON_IsString(name) && (name->valuestring != NULL)) {
         printf("Name: %s\n", name->valuestring);
     }
 
+    printf("Navn: %s\n", );
     // delete the JSON object
     cJSON_Delete(json);
 

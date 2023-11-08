@@ -1,29 +1,54 @@
 {
  "Users": [
   {
-   "Name": "Mike Krack",
+   "Name": "Rasmus",
    "Age": 30,
-   "Gender": "Male"
+   "Gender": "Male",
+   "CPR": 308031234,
+   "Diagnosis1": "Astma",
+   "Medicine1": "Astma Medicin",
+   "Diagnosis2": "Høfeber",
+   "Medicine2": "Opatanol"
   },
   {
    "Name": "Faker",
    "Age": 25,
-   "Gender": "GOAT"
+   "Gender": "GOAT",
+   "CPR": 1111991234,
+   "Diagnosis1": "??",
+   "Medicine1": "??",
+   "Diagnosis2": "??",
+   "Medicine2": "??"
   },
   {
    "Name": "Lasse Binderup Soerensen",
    "Age": 24,
-   "Gender": "Male"
+   "Gender": "Male",
+   "CPR": 304991234,
+   "Diagnosis1": "Høfeber",
+   "Medicine1": "Høfeber",
+   "Diagnosis2": "Eksem",
+   "Medicine2": "??"
   },
   {
    "Name": "Jakob Stroem",
    "Age": 20,
-   "Gender": "Sigma"
+   "Gender": "Sigma",
+   "CPR": 1311991234,
+   "Diagnosis1": "??",
+   "Medicine1": "??",
+   "Diagnosis2": "??",
+   "Medicine2": "??"
   },
   {
    "Name": "Mathias",
+   "CPR": 1411991234,
+   "Gender": "Ghoul",
    "Age": 10000,
-   "Gender": "Ghoul"
+   "Diagnosis1": "??",
+   "Medicine1": "??",
+   "Diagnosis2": "??",
+   "Medicine2": "??"
   }
  ]
 }
