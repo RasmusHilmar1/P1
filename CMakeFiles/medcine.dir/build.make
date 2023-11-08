@@ -73,85 +73,85 @@ CMakeFiles/medcine.dir/main.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/main.c.o: main.c
 CMakeFiles/medcine.dir/main.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/medcine.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/main.c.o -MF CMakeFiles/medcine.dir/main.c.o.d -o CMakeFiles/medcine.dir/main.c.o -c /Users/jonathanpascu/CLionProjects/medcine/main.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/main.c.o -MF CMakeFiles/medcine.dir/main.c.o.d -o CMakeFiles/medcine.dir/main.c.o -c /Users/jonathanpascu/CLionProjects/medcine/main.c
 
 CMakeFiles/medcine.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/main.c > CMakeFiles/medcine.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/main.c > CMakeFiles/medcine.dir/main.c.i
 
 CMakeFiles/medcine.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/main.c -o CMakeFiles/medcine.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/main.c -o CMakeFiles/medcine.dir/main.c.s
 
 CMakeFiles/medcine.dir/patient_information.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/patient_information.c.o: patient\ information.c
 CMakeFiles/medcine.dir/patient_information.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/medcine.dir/patient_information.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/patient_information.c.o -MF CMakeFiles/medcine.dir/patient_information.c.o.d -o CMakeFiles/medcine.dir/patient_information.c.o -c "/Users/jonathanpascu/CLionProjects/medcine/patient information.c"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/patient_information.c.o -MF CMakeFiles/medcine.dir/patient_information.c.o.d -o CMakeFiles/medcine.dir/patient_information.c.o -c "/Users/jonathanpascu/CLionProjects/medcine/patient information.c"
 
 CMakeFiles/medcine.dir/patient_information.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/patient_information.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jonathanpascu/CLionProjects/medcine/patient information.c" > CMakeFiles/medcine.dir/patient_information.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jonathanpascu/CLionProjects/medcine/patient information.c" > CMakeFiles/medcine.dir/patient_information.c.i
 
 CMakeFiles/medcine.dir/patient_information.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/patient_information.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jonathanpascu/CLionProjects/medcine/patient information.c" -o CMakeFiles/medcine.dir/patient_information.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jonathanpascu/CLionProjects/medcine/patient information.c" -o CMakeFiles/medcine.dir/patient_information.c.s
 
 CMakeFiles/medcine.dir/login.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/login.c.o: login.c
 CMakeFiles/medcine.dir/login.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/medcine.dir/login.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/login.c.o -MF CMakeFiles/medcine.dir/login.c.o.d -o CMakeFiles/medcine.dir/login.c.o -c /Users/jonathanpascu/CLionProjects/medcine/login.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/login.c.o -MF CMakeFiles/medcine.dir/login.c.o.d -o CMakeFiles/medcine.dir/login.c.o -c /Users/jonathanpascu/CLionProjects/medcine/login.c
 
 CMakeFiles/medcine.dir/login.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/login.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/login.c > CMakeFiles/medcine.dir/login.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/login.c > CMakeFiles/medcine.dir/login.c.i
 
 CMakeFiles/medcine.dir/login.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/login.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/login.c -o CMakeFiles/medcine.dir/login.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/login.c -o CMakeFiles/medcine.dir/login.c.s
 
 CMakeFiles/medcine.dir/Enter_CPR_.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/Enter_CPR_.c.o: Enter\ CPR\ .c
 CMakeFiles/medcine.dir/Enter_CPR_.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/medcine.dir/Enter_CPR_.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/Enter_CPR_.c.o -MF CMakeFiles/medcine.dir/Enter_CPR_.c.o.d -o CMakeFiles/medcine.dir/Enter_CPR_.c.o -c "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/Enter_CPR_.c.o -MF CMakeFiles/medcine.dir/Enter_CPR_.c.o.d -o CMakeFiles/medcine.dir/Enter_CPR_.c.o -c "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c"
 
 CMakeFiles/medcine.dir/Enter_CPR_.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/Enter_CPR_.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c" > CMakeFiles/medcine.dir/Enter_CPR_.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c" > CMakeFiles/medcine.dir/Enter_CPR_.c.i
 
 CMakeFiles/medcine.dir/Enter_CPR_.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/Enter_CPR_.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c" -o CMakeFiles/medcine.dir/Enter_CPR_.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/jonathanpascu/CLionProjects/medcine/Enter CPR .c" -o CMakeFiles/medcine.dir/Enter_CPR_.c.s
 
 CMakeFiles/medcine.dir/cJSON.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/cJSON.c.o: cJSON.c
 CMakeFiles/medcine.dir/cJSON.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/medcine.dir/cJSON.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/cJSON.c.o -MF CMakeFiles/medcine.dir/cJSON.c.o.d -o CMakeFiles/medcine.dir/cJSON.c.o -c /Users/jonathanpascu/CLionProjects/medcine/cJSON.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/cJSON.c.o -MF CMakeFiles/medcine.dir/cJSON.c.o.d -o CMakeFiles/medcine.dir/cJSON.c.o -c /Users/jonathanpascu/CLionProjects/medcine/cJSON.c
 
 CMakeFiles/medcine.dir/cJSON.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/cJSON.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/cJSON.c > CMakeFiles/medcine.dir/cJSON.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/cJSON.c > CMakeFiles/medcine.dir/cJSON.c.i
 
 CMakeFiles/medcine.dir/cJSON.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/cJSON.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/cJSON.c -o CMakeFiles/medcine.dir/cJSON.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/cJSON.c -o CMakeFiles/medcine.dir/cJSON.c.s
 
 CMakeFiles/medcine.dir/dosagecalc.c.o: CMakeFiles/medcine.dir/flags.make
 CMakeFiles/medcine.dir/dosagecalc.c.o: dosagecalc.c
 CMakeFiles/medcine.dir/dosagecalc.c.o: CMakeFiles/medcine.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonathanpascu/CLionProjects/medcine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/medcine.dir/dosagecalc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/dosagecalc.c.o -MF CMakeFiles/medcine.dir/dosagecalc.c.o.d -o CMakeFiles/medcine.dir/dosagecalc.c.o -c /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/medcine.dir/dosagecalc.c.o -MF CMakeFiles/medcine.dir/dosagecalc.c.o.d -o CMakeFiles/medcine.dir/dosagecalc.c.o -c /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c
 
 CMakeFiles/medcine.dir/dosagecalc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/medcine.dir/dosagecalc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c > CMakeFiles/medcine.dir/dosagecalc.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c > CMakeFiles/medcine.dir/dosagecalc.c.i
 
 CMakeFiles/medcine.dir/dosagecalc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/medcine.dir/dosagecalc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c -o CMakeFiles/medcine.dir/dosagecalc.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jonathanpascu/CLionProjects/medcine/dosagecalc.c -o CMakeFiles/medcine.dir/dosagecalc.c.s
 
 # Object files for target medcine
 medcine_OBJECTS = \

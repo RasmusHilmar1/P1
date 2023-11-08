@@ -8,7 +8,8 @@ int main() {
 
     login(); // LOGIN FUNCTION
     dosage(); // DOSAGE CALCULATOR
-    print_patient(); //Print patient information
+    const char *cpr_to_find = "308031234";  // Replace with the desired CPR value
+    print_patient(cpr_to_find);
 
     /* // open the file
     FILE *fp = fopen("users.json", "r");
